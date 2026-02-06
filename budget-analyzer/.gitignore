@@ -7,9 +7,6 @@ target/
 # =========================
 # Test files (IGNORED FOR NOW)
 # =========================
-src/test/
-**/*Test.java
-**/*Tests.java
 
 # =========================
 # IDE / Editor files
@@ -56,3 +53,11 @@ application-prod.properties
 *.tmp
 *.swp
 *.bak
+/target/
+*.log
+*.class
+.env
+application-local.yml
+application-dev.yml
+.idea/
+.vscode/
